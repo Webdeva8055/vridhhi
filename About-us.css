@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url("pagebgport.jpg") center/cover no-repeat;
+}
+
+
+.content{
+    margin-top: 100px;
+    padding-top:2%;
+    height:calc(100% - 100px);
+    width:100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.us{
+    color: #fff;
+   position: relative;
+}
+
+.service {
+  
+    margin-top: auto;
+    
+    position: relative;
+    padding-top:4%;
+
+}
+
+.service ul li{
+    color: rgb(211, 211, 211);
+    font-weight: 700;
+    display: flex;
+    font-size: 1.7rem;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+
+
+}
+
+
+.content h1{
+    font-size: 4vw;
+    line-height: 4.4vw;
+    color: #ea4eff;
+}
+.content h2{
+    font-size: 3vw;
+    line-height: 3.2vw;
+    color: #fff;
+}
+
+.content h1 span{
+    color: #ea4eff;
+}
+
+.content h2 span{
+    color:  #ea4eff;
+}
+
+.us p span{
+    color: #ea4eff;
+}
+
+.content p{
+    font-size: 1.9vw;
+    color: gainsboro;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;;
+}
+
+button{
+    font-size: 1.5vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #ea4eff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+
+
+.links-contact{
+    display: flex;
+    height: 50px;
+    padding:2px;
+    align-items :center;
+    max-width:1200px;
+    margin: 0 20px;
+    gap: 10px;
+    justify-content: center;
+    bottom:0;
+    position: relative;
+}
+
+.contacts span{
+    display: flex;
+    align-items: center;
+    max-width:1200px;
+    margin: 0 20px;
+    column-gap: 2px;
+    justify-content: center;
+    bottom:2px;
+    color: #fff;
+    font-size: small;
+
+}
+
+.links-contact a{
+    display: flex;
+    color: #ea4eff;
+    font-size :2vw;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+@media (max-width: 850px) {
+
+    .service ul li{
+        color:rgb(211, 211, 211);
+        font-weight: 700;
+        display: flex;
+        font-size: 1.1rem;
+        list-style-type: none;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .service {
+  
+        margin-top: 20px;
+        
+        position: relative;
+        padding-top:2%;
+    
+    }
+    
+    body {
+        background: url("images/pagebgport.png") center/cover no-repeat;
+    }
+
+    button{
+        font-size: 3vw;
+        padding: 2.7vw 3.8vw;
+        background-color: #ea4eff;
+        color: #fff;
+        border: none;
+        border-radius: 7px;
+        font-weight: 700;
+        
+    
+    }
+
+   
+    .links-contact{
+        display: flex;
+        height: auto;
+        padding:2px;
+        align-items :center;
+        max-width:1200px;
+        margin: 0 20px;
+        gap: 10px;
+        justify-content: center;
+        bottom:0;
+        position: relative;
+    }
+
+    
+}

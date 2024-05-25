@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url("images/pagebgport.jpg") center/cover no-repeat;
+    padding: 20px;
+}
+
+.quiz-section{
+    height: 70%;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    background-color:white;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+#answer-btn{
+    border-bottom: 1px solid black;
+   
+}
+.answer-btns {
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    border-left-width: 5px;
+    border-left-color:blueviolet;
+    cursor: pointer;
+    font-size: 3vh;
+    transition: all 0.3s;
+    
+}
+
+.answer-btns:hover:not([disabled]){
+    background-color: grey;
+    color: #fff;
+}
+
+.answer-btns:disabled{
+    cursor: no-drop;
+}
+.correct{
+    background-color: springgreen;
+}
+
+.incorrect{
+    background-color: crimson;
+}
+
+#question{
+    font-size:2vw ;
+    color: blueviolet;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+}
+
+
+
+#quiz button{
+    margin: 10px;
+    list-style-type: none;
+}
+
+
+#next-btn{
+        width: 150px;
+        padding:10px;
+        background-color: #ea4eff;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        font-weight: 500;
+        margin: 20px auto 0;
+        cursor: pointer;
+        display: none;
+
+}
+
+#next-btn:hover{
+    transform: scale(1.5vw);
+}
+
+.result{
+    height: 40%;
+        width: 90%;
+        position: relative;
+        background-color:white;
+        margin: 15% auto 0;
+        border-radius: 10px;
+        padding: 30px;
+}
+
+.result h2{
+    font-size:4vw ;
+    color: blueviolet;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+}
+
+.result p{
+    font-weight: 300;
+    color: #222;
+    font-size: medium;
+}
+.result button{
+    width: 200px;
+    height: 50px;;
+    padding:15px;
+    background-color: #ea4eff;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    
+}
+
+button{
+    font-size: 1.5vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #ea4eff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+@media (Max-width:700px)
+{
+
+    .quiz-section{
+        height: 70%;
+        width: 90%;
+        position: relative;
+        background-color:white;
+        margin: 70px auto 0;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    #question{
+        font-size:4vh;
+        color: blueviolet;
+        border-bottom: 1px solid black;
+        margin: 10px 0;
+    }
+    
+    .quiz{
+        padding: 30px 0;
+    }
+
+
+    #answer-btn{
+        border-bottom: 1px solid black;
+       
+    }
+    .answer-btns {
+        background-color: #fff;
+        color: black;
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid #222;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border-left-width: 5px;
+        border-left-color:blueviolet;
+        cursor: pointer;
+        font-size: 3vh;
+        transition: all 0.3s;
+    }
+    
+    .answer-btns:hover:not([disabled]){
+        background-color: grey;
+        color: #fff;
+    }
+    .answer-btns:disabled{
+        cursor: no-drop;
+    }
+    .correct{
+        background-color: springgreen;
+    }
+    
+    .incorrect{
+        background-color: crimson;
+    }
+    
+.result{
+    height: 40%;
+        width: 90%;
+        position: relative;
+        background-color:white;
+        margin: 70px auto 0;
+        border-radius: 10px;
+        padding: 30px;
+}
+    
+.result h2{
+    font-size:4vh ;
+    color: blueviolet;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+}
+
+.result p{
+    font-weight: 300;
+    color: #222;
+    font-size: medium;
+}
+.result button{
+    width: 200px;
+    height: 50px;;
+    padding:15px;
+    background-color: #ea4eff;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    
+}
+}

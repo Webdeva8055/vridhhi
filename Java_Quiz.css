@@ -1,0 +1,143 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url("images/pagebgport.jpg") center/cover no-repeat;
+}
+
+
+button{
+    font-size: 1.5vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #ea4eff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+
+
+.content{
+    margin-top: 100px;
+    padding-top:2%;
+    height:calc(100% - 100px);
+    width:100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.card-button{
+    font-size: 2vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #ea4eff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    align-items: center;
+    position: relative;
+    margin: 5%;
+    bottom: 2%;
+    width: 50vh;
+    height: 10vh;
+    transition: all 0.3s ease;
+}
+.cards {
+    display:flex;
+    gap: 35px;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+  
+  
+  
+  .card-button:hover{
+    transform: scale(1.1);
+  }
+
+  .card.visited {
+    box-shadow: 0 3px 10px 2px #444;
+  }
+  
+  .content h1{
+    color: #ea4eff;
+    font-size: 7vw;
+    font-weight: 700;
+    margin: 3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  @media (max-width: 1070px) {
+    .cards {
+      display:flex;
+      gap: 10px;
+      list-style: none;
+      align-items: center;
+      position: relative;
+      margin-top: 1%;
+    }
+
+  
+  @media (max-width: 800px) {
+    .cards {
+      display:flex;
+      gap: 35px;
+      list-style: none;
+      align-items: center;
+      position: relative;
+      margin-top: 5%;
+      flex-direction: column;
+    }
+    
+    }
+
+    .content h1{
+        color: #ea4eff;
+        font-size: 12vh;
+        font-weight: 700;
+        margin: 3%;
+      }
+
+    body {
+        background: url("images/pagebgport.png") center/cover;
+    }
+
+    .card-button{
+      font-size: 3vw;
+      padding: 0.5vw 2.3vw;
+      background-color: #ea4eff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: 700;
+      align-items: center;
+      position: relative;
+      width: 30vh;
+      height: 10vh;
+  }
+
+  }
